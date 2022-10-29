@@ -1,11 +1,10 @@
 import "./App.css";
+import Nav from "./Components/Nav";
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-blue-600">DodoTech Homepage</h1>
-      </div>
+      <Nav />
     </>
   );
 }
