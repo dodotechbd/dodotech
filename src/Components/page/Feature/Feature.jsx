@@ -1,7 +1,6 @@
 import React from "react";
 import { useQuery } from "react-query";
 import FeatureRow from "./FeatureRow";
-
 const Feature = () => {
   const url = "Feature.json";
   const { data: services } = useQuery("services", () =>
@@ -10,7 +9,7 @@ const Feature = () => {
 
   return (
     <div>
-      <div class="text-black  bg-gradient-to-r from-indigo-500  to-pink-500">
+      <div class="text-black  ">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -29,6 +28,11 @@ const Feature = () => {
               <FeatureRow key={service.id} service={service}></FeatureRow>
             ))}
           </div>
+        </div>
+        <div class="lines">
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
         </div>
       </div>
     </div>

@@ -4,11 +4,11 @@ const FeatureRow = ({ service }) => {
   const { name, description, img } = service;
   return (
     <div class="xl:w-1/3 md:w-1/2 p-8 ">
-      <div className="bg-white hover:shadow-xl border hover:-translate-y-5 border-neutral  transform transition duration-300">
+      <div className="bg-white hover:shadow-xl border hover:-translate-y-5 border-neutral  transform transition duration-300 rounded-lg">
         <article class="rounded-lg border h-56 border-gray-100 p-4 shadow-sm transition hover:shadow-lg sm:p-6">
           <span class="inline-block rounded  p-2 text-white">
             <img
-              class="mt-[-95px] p-4 mx-32 w-20 h-20 
+              class="mt-[-95px] p-4 mx-32 w-20 h-20 rounded
   bg-gray-300 inline-flex items-center justify-center md:mx-20  xl:mx-36 "
               src={img}
               alt="content"
