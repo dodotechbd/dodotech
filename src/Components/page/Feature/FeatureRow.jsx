@@ -9,7 +9,7 @@ const FeatureRow = ({ service }) => {
           <span class="inline-block rounded  p-2 text-white">
             <img
               class="mt-[-95px] p-4 mx-32 w-20 h-20 
-  bg-gray-300 inline-flex items-center justify-center md:mx-20 lg:mx-36 "
+  bg-gray-300 inline-flex items-center justify-center md:mx-20 lg:mx-28 "
               src={img}
               alt="content"
             />
