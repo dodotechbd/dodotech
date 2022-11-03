@@ -20,14 +20,10 @@ const Templatefroms = () => {
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 w-11/12 mx-auto mt-10 '>
-                <Templatefrom Title ="A Complete Product forYour Business" bgClass="bg-violet-700"  img={tem1} description ="We build Templates that are rich in content and have a good user interface to deliver a premium user experience for your customers."></Templatefrom>
-                <Templatefrom Title ="SEO & SMM Friendly" bgClass ="bg-cyan-500" img={tem2} description ="Our Template is SEO and SMM-friendly that aligns with your digital marketing strategies to bring more organic traffic to your website."></Templatefrom>
-                <Templatefrom Title ="Well Organized Codes" bgClass ="bg-orange-400" img={tem3} description ="The coding structure of our items is organized so other developers can easily recognize the pattern and make updates as needed."></Templatefrom>
-
-
+                <Templatefrom Title="A Complete Product forYour Business" bgClass="bg-violet-700" img={tem1} description="We build Templates that are rich in content and have a good user interface to deliver a premium user experience for your customers."></Templatefrom>
+                <Templatefrom Title="SEO & SMM Friendly" bgClass="bg-cyan-500" img={tem2} description="Our Template is SEO and SMM-friendly that aligns with your digital marketing strategies to bring more organic traffic to your website."></Templatefrom>
+                <Templatefrom Title="Well Organized Codes" bgClass="bg-orange-400" img={tem3} description="The coding structure of our items is organized so other developers can easily recognize the pattern and make updates as needed."></Templatefrom>
             </div>
-
-
         </div>
 
     );
