@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "A Complete Product for Your Business",
+        "description": "We build Templates that are rich in content and have a good user interface to deliver a premium user experience for your customers.",
+        "img": "https://i.ibb.co/6mTrH3K/tem3.png"
+    },
+    {
+        "id": 2,
+        "name": "SEO & SMM Friendly",
+        "description": "Our Template is SEO and SMM-friendly that aligns with your digital marketing strategies to bring more organic traffic to your website.",
+        "img": "https://i.ibb.co/8gdH75G/tem2.png"
+    },
+    {
+        "id": 3,
+        "name": "Well Organized Codes",
+        "description": "The coding structure of our items is organized so other developers can easily recognize the pattern and make updates as needed.",
+        "img": "https://i.ibb.co/B2RHj0r/tem1.png"
+    }
+]
