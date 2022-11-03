@@ -6,16 +6,16 @@ const Nav = () => {
   const [isHover, setIsHover] = useState(false);
   return (
     <div className="container mx-auto">
-      <div className="flex justify-between mt-11 items-center">
+      <div className="flex justify-between mt-11 items-center px-4">
         <div className="flex items-center gap-2">
-          <img src={dodo} alt="dodo" className="w-20" />
+          <img src={dodo} alt="dodo" className="w-16" />
           <div className="text-[#1F1E5E] tracking-wide">
-            <h1 className="font-bold text-2xl">DodoTech</h1>
-            <p className="text-lg font-medium">Official Website</p>
+            <h1 className="font-bold text-xl">DodoTech</h1>
+            <p className="font-medium">Official Website</p>
           </div>
         </div>
         <div className="flex items-center gap-8 tracking-wide">
-          <ul className="flex gap-8 text-[#1F1E5E] font-bold text-xl">
+          <ul className="flex gap-8 text-[#1F1E5E] font-bold">
             <li>
               <a className="hover:text-[#702FFF]" href="#">Template</a>
             </li>
@@ -40,7 +40,7 @@ const Nav = () => {
                 isHover ? "scale-100 border-[3px] border-[#702FFF]" : "scale-110"
               }`}
             ></div>
-            <div className="flex items-center gap-5 text-xl font-bold text-white tracking-wide hover:text-[#702FFF] py-4 px-6">
+            <div className="flex items-center gap-5 font-bold text-white tracking-wide hover:text-[#702FFF] py-[13px] px-4">
               <span>Buy Now</span>
               <RiShoppingCart2Fill />
             </div>
