@@ -5,7 +5,7 @@ const FeatureRow = ({ service }) => {
   return (
     <div class="xl:w-1/3 md:w-1/2 p-8 ">
       <div className="bg-white">
-        <article class="rounded-lg border border-gray-100 p-4 shadow-sm transition hover:shadow-lg sm:p-6">
+        <article class="rounded-lg border h-56 border-gray-100 p-4 shadow-sm transition hover:shadow-lg sm:p-6">
           <span class="inline-block rounded  p-2 text-white">
             <img
               class="mt-[-95px] p-4 mx-32 w-20 h-20 
