@@ -1,12 +1,13 @@
 import "./App.css";
 import Nav from "./Components/Nav";
-import Templatefroms from "./Components/Templatefrom/Templatefroms/Templatefroms";
+import Home from "./Components/page/Home";
+
 
 function App() {
   return (
     <>
       <Nav />
-      <Templatefroms></Templatefroms>
+      <Home/>
     </>
   );
 }
