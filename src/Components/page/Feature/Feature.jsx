@@ -29,11 +29,6 @@ const Feature = () => {
             ))}
           </div>
         </div>
-        <div class="lines">
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </div>
       </div>
     </div>
   );
