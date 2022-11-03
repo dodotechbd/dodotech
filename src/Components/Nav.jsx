@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { RiShoppingCart2Fill } from "react-icons/ri";
+import { BsCart3 } from "react-icons/bs";
 import dodo from "../Assets/dodo.png";
 
 const Nav = () => {
@@ -42,7 +42,7 @@ const Nav = () => {
             ></div>
             <div className="flex items-center gap-5 font-bold text-white tracking-wide hover:text-[#702FFF] py-[13px] px-4">
               <span>Buy Now</span>
-              <RiShoppingCart2Fill />
+              <BsCart3 />
             </div>
           </button>
         </div>
