@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1",
+    "name": "Powered by React",
+    "description": "Our Template is Perfect for all devices. It is made by React Structure. React JS was designed to provide high performance in mind.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-10.png?imwidth=48"
+  },
+
+  {
+    "id": "2",
+    "name": "Reusable Components",
+    "description": "All the components of this template are reusable. We made keystroke using functional components. You can reuse any components.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-11.png?imwidth=48"
+  },
+
+  {
+    "id": "3",
+    "name": "Sass Available",
+    "description": "Sass is more stable, powerful, and elegant because it is an extension of CSS. So, it is easy for designers and developers to work more efficiently.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-12.png?imwidth=48"
+  },
+
+  {
+    "id": "4",
+    "name": "Fully Responsive Layout",
+    "description": "All the pages of this template are responsive. We used the Bootstrap framework to build the website. It’s the best in class.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-01.png?imwidth=48"
+  },
+
+  {
+    "id": "5",
+    "name": "21+ Resourceful Pages",
+    "description": "All the pages are created based on real content that you will need to run your business. ",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-02.png?imwidth=48"
+  },
+
+  {
+    "id": "6",
+    "name": "Fast Loading Speed",
+    "description": "Website speed is very important. Hence we’ve created Abstrak in a way that your website will load fast, and you will get better performance.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-13.png?imwidth=48"
+  },
+
+  {
+    "id": "7",
+    "name": "Font Awesome 5 Pro Icons",
+    "description": "This template comes with licensed premium quality icons from FontAwesome. All the icons are font based and ready to match the quality of any HQ screen.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-03.png?imwidth=48"
+  },
+
+  {
+    "id": "8",
+    "name": "Google Font",
+    "description": "A vast collection of Google fonts are integrated with the template. You can use any of them that goes with your branding.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-04.png?imwidth=48"
+  },
+
+  {
+    "id": "9",
+    "name": "Lifetime Update",
+    "description": "Purchase our template only once and get lifetime updates. We keep updating our products to stay up to date with the latest trends and technology.",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/feature-icon-08.png?imwidth=48"
+  }
+]
