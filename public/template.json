@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "name": "Digital Agency",
+      "description": "Our Template is Perfect for all devices. It is made by React Structure. React JS was designed to provide high performance in mind.",
+      "img": "https://i.ibb.co/qJBQMBd/1.png"
+    },
+  
+    {
+      "id": "2",
+      "name": "Creative Agency",
+      "description": "All the components of this template are reusable. We made keystroke using functional components. You can reuse any components.",
+      "img": "https://i.ibb.co/qJBQMBd/1.png"
+    },
+  
+    {
+      "id": "3",
+      "name": "Personal Protfolio",
+      "description": "Sass is more stable, powerful, and elegant because it is an extension of CSS. So, it is easy for designers and developers to work more efficiently.",
+      "img": "https://i.ibb.co/qJBQMBd/1.png"
+    },
+  
+    {
+      "id": "4",
+      "name": "Corporate Agency",
+      "description": "All the pages of this template are responsive. We used the Bootstrap framework to build the website. It’s the best in class.",
+      "img": "https://i.ibb.co/qJBQMBd/1.png"
+    },
+  
+    {
+      "id": "5",
+      "name": "Statup",
+      "description": "All the pages are created based on real content that you will need to run your business. Change image and text and you’re good to go!",
+      "img": "https://i.ibb.co/qJBQMBd/1.png"
+    },
+  
+    {
+      "id": "6",
+      "name": "Comming Soon",
+      "description": "Website speed is very important. Hence we’ve created Abstrak in a way that your website will load fast, and you will get better performance.",
+      "img": "https://i.ibb.co/qJBQMBd/1.png"
+    }
+    
+  ]
+  
