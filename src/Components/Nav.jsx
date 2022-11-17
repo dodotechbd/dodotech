@@ -21,7 +21,7 @@ const Nav = () => {
     window.addEventListener("scroll", changeBackground);
   });
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto relative">
       <div
         className={`flex absolute w-full z-40 duration-500 justify-between mt-11 items-center px-4 left-0 ${
           nav ? "-top-10" : "top-0"

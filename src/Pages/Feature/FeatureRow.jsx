@@ -4,12 +4,11 @@ const FeatureRow = ({ service }) => {
   const { name, description, img } = service;
   return (
     <div class="xl:w-1/3 md:w-1/2 w-full p-8 ">
-      <div className="bg-white hover:shadow-xl border hover:-translate-y-5 border-neutral  transform transition duration-300 rounded-lg">
-        <article class="rounded-lg border h-56 border-gray-100 p-4 shadow-sm transition hover:shadow-lg sm:p-6">
-          <span class="inline-block rounded  p-2 text-white">
+      <div className="bg-white">
+        <article class="h-56 p-4 sm:p-6">
+          <span class="p-2 text-white">
             <img
-              class="mt-[-95px] p-4 mx-32 w-20 h-20 rounded
-  bg-gray-300 inline-flex items-center justify-center md:mx-20  xl:mx-36 "
+              class="mt-[-95px] p-4 mx-auto w-20 h-20 bg-gray-300"
               src={img}
               alt="content"
             />
@@ -20,7 +19,7 @@ const FeatureRow = ({ service }) => {
           </a>
 
           <p class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3">
-            {description}
+            {description.slice(0,120)}..
           </p>
 
           <a

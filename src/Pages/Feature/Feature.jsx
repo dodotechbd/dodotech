@@ -8,9 +8,9 @@ const Feature = () => {
   );
 
   return (
-    <div>
-      <div class="text-black mt-28">
-        <div class="container px-5 py-24 mx-auto">
+    <div className="bg-[#FBF5E7]">
+      <div class="container mx-auto px-4 text-black">
+        <div class="py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 class="sm:text-6xl text-2xl  font-bold title-font mb-2 text-gray-900">

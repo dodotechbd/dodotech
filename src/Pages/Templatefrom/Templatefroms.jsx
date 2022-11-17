@@ -6,8 +6,8 @@ import Templatefrom from "../Templatefrom/Templatefrom";
 
 const Templatefroms = () => {
   return (
-    <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-24  w-11/12 mx-auto mt-20 mb-20">
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 mx-auto mt-20 mb-20">
         <div className="">
           <h2 className="italic font-bold text-blue-900 text-6xl ">
             Why Buy Template From Us?{" "}
@@ -21,7 +21,7 @@ const Templatefroms = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 w-11/12 mx-auto mt-10 ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 mx-auto mt-10 ">
         <Templatefrom
           Title="A Complete Product forYour Business"
           bgClass="bg-violet-700"
