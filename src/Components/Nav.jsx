@@ -83,7 +83,7 @@ const Nav = () => {
       </div>
       {/* scroll nav  */}
       <div
-        className={`flex fixed z-40 w-full duration-1000 bg-white justify-between py-2 shadow-lg items-center px-4 left-0 ${
+        className={`flex fixed z-40 w-full duration-500 bg-white justify-between py-2 shadow-lg items-center px-4 left-0 ${
           nav ? "top-0" : "-top-28"
         }`}
       >
@@ -94,7 +94,7 @@ const Nav = () => {
             <p className="font-medium">Official Website</p>
           </div>
         </div>
-        <div>
+        <div className="flex items-center">
           <div className="lg:flex hidden items-center gap-8 tracking-wide">
             <ul className="flex gap-8 text-[#1F1E5E] font-bold">
               <li>
