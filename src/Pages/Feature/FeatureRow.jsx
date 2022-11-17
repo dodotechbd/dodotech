@@ -3,7 +3,7 @@ import React from "react";
 const FeatureRow = ({ service }) => {
   const { name, description, img } = service;
   return (
-    <div class="xl:w-1/3 md:w-1/2 p-8 ">
+    <div class="xl:w-1/3 md:w-1/2 w-full p-8 ">
       <div className="bg-white hover:shadow-xl border hover:-translate-y-5 border-neutral  transform transition duration-300 rounded-lg">
         <article class="rounded-lg border h-56 border-gray-100 p-4 shadow-sm transition hover:shadow-lg sm:p-6">
           <span class="inline-block rounded  p-2 text-white">
