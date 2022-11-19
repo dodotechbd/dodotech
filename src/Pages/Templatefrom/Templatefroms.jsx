@@ -7,21 +7,21 @@ import Templatefrom from "../Templatefrom/Templatefrom";
 const Templatefroms = () => {
   return (
     <div className="container mx-auto px-4">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 mx-auto mt-20 mb-20">
-        <div className="">
-          <h2 className="italic font-bold text-blue-900 text-6xl ">
+      <div className="lg:flex gap-32 mx-auto mt-20 mb-20">
+        <div className="w-full">
+          <h2 className="font-bold text-[#1F1E5E] lg:text-5xl text-2xl mb-6">
             Why Buy Template From Us?{" "}
           </h2>
         </div>
-        <div className="">
-          <p className="text-xl text-slate-400">
+        <div className="w-full">
+          <p className="lg:text-2xl text-lg text-slate-500">
             Every template is built with such efforts that they are ready to
             meet all of our clients’ expectations.
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 mx-auto mt-10 ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 mx-auto my-10 ">
         <Templatefrom
           Title="A Complete Product forYour Business"
           bgClass="bg-violet-700"
