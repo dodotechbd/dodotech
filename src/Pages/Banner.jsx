@@ -18,7 +18,7 @@ const Banner = () => {
               <h2 className="text-[17px] font-semibold">Explore Template</h2>
             </div>
           </div>
-          <div className="lg:pt-96 pb-10 lg:flex justify-end">
+          <div className="lg:pt-80 pb-16 lg:flex justify-end">
             <div className="lg:max-w-xl lg:flex grid grid-cols-2 gap-8 lg:gap-32 whitespace-nowrap">
               <div className="w-full text-[#000248]">
                 <h4 className="opacity-80">Demo Website</h4>
@@ -40,12 +40,12 @@ const Banner = () => {
           <img
             src="https://new.axilthemes.com/demo/react/keystroke/images/preview/small-mockup.png?imwidth=1080"
             alt="tab"
-            className="w-[400px] absolute left-40 bottom-7"
+            className="w-[400px] absolute left-32 bottom-7"
           />
           <img
             src="https://new.axilthemes.com/demo/react/keystroke/images/preview/large-mockup.png?imwidth=1920"
             alt="laptop"
-            className="w-[550px] absolute right-40 bottom-44"
+            className="w-[550px] absolute right-48 bottom-36"
           />
           <img
             src="https://new.axilthemes.com/demo/react/keystroke/images/preview/phone.png?imwidth=640"

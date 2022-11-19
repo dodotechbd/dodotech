@@ -3,7 +3,7 @@ import React from "react";
 const FeatureRow = ({ service }) => {
   const { name, description, img } = service;
   return (
-    <div class="xl:w-1/3 md:w-1/2 w-full p-8 ">
+    <div class="w-full mt-11">
       <div className="bg-white">
         <article class="h-56 p-4 sm:p-6">
           <span class="p-2 text-white">

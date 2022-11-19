@@ -10,7 +10,7 @@ const Nav = () => {
   const [nav, setNav] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 300) {
+    if (window.scrollY >= 200) {
       setNav(true);
     } else {
       setNav(false);

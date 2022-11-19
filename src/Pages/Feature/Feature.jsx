@@ -23,7 +23,7 @@ const Feature = () => {
               satisfaction.
             </p>
           </div>
-          <div class="flex flex-wrap -m-5  ">
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
             {services?.map((service) => (
               <FeatureRow key={service.id} service={service}></FeatureRow>
             ))}
