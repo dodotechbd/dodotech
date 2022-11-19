@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { BsCart3 } from "react-icons/bs";
 import { CgClose, CgMenuGridO } from "react-icons/cg";
+import { FaShoppingCart } from "react-icons/fa";
 import dodo from "../Assets/dodo.png";
 
 const Nav = () => {
@@ -71,7 +71,7 @@ const Nav = () => {
             ></div>
             <div className="flex items-center gap-5 font-bold text-white tracking-wide hover:text-[#702FFF] py-[13px] px-4">
               <span>Buy Now</span>
-              <BsCart3 />
+              <FaShoppingCart />
             </div>
           </button>
         </div>
@@ -132,7 +132,7 @@ const Nav = () => {
               ></div>
               <div className="flex items-center gap-5 font-bold text-white tracking-wide hover:text-[#702FFF] py-[13px] px-4">
                 <span>Buy Now</span>
-                <BsCart3 />
+                <FaShoppingCart />
               </div>
             </button>
           </div>
@@ -190,7 +190,7 @@ const Nav = () => {
           ></div>
           <div className="flex items-center gap-5 font-bold text-white tracking-wide hover:text-[#702FFF] py-[13px] px-4">
             <span>Buy Now</span>
-            <BsCart3 />
+            <FaShoppingCart />
           </div>
         </button>
       </div>
