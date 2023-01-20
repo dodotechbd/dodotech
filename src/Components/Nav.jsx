@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CgClose, CgMenuGridO } from "react-icons/cg";
 import { FaShoppingCart } from "react-icons/fa";
-import dodo from "../Assets/dodo.png";
+import dodo from "../Assets/dodo.svg";
 
 const Nav = () => {
   const [isHover, setIsHover] = useState(false);
@@ -28,8 +28,8 @@ const Nav = () => {
         }`}
       >
         <div className="flex items-center gap-2">
-          <img src={dodo} alt="dodo" className="w-16" />
-          <div className="text-[#1F1E5E] tracking-wide">
+          <img src={dodo} alt="dodo" className="w-20" />
+          <div className="text-[#1F1E5E] tracking-wide hidden">
             <h1 className="font-bold text-xl">DodoTech</h1>
             <p className="font-medium">Official Website</p>
           </div>
@@ -88,8 +88,8 @@ const Nav = () => {
         }`}
       >
         <div className="flex items-center gap-2">
-          <img src={dodo} alt="dodo" className="w-16" />
-          <div className="text-[#1F1E5E] tracking-wide">
+          <img src={dodo} alt="dodo" className="w-20" />
+          <div className="text-[#1F1E5E] tracking-wide hidden">
             <h1 className="font-bold text-xl">DodoTech</h1>
             <p className="font-medium">Official Website</p>
           </div>
