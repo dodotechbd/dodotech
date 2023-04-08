@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "name": "Digital Agency",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-01.png?imwidth=1920"
+  },
+
+  {
+    "id": "2",
+    "name": "Creative Agency",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-02.png?imwidth=1920"
+  },
+
+  {
+    "id": "3",
+    "name": "Personal Portfolio",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-03.png?imwidth=1920"
+  },
+
+  {
+    "id": "4",
+    "name": "Startup",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-05.png?imwidth=1920"
+  },
+
+  {
+    "id": "5",
+    "name": "Corporate Agency",
+    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-04.png?imwidth=1920"
+  }
+]
