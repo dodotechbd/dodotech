@@ -28,7 +28,7 @@ const Nav = () => {
         }`}
       >
         <div className="flex items-center gap-2">
-          <img src={dodo} alt="dodo" className="w-20" />
+          <img src={dodo} alt="dodo" className="w-32" />
           <div className="text-[#1F1E5E] tracking-wide hidden">
             <h1 className="font-bold text-xl">DodoTech</h1>
             <p className="font-medium">Official Website</p>
@@ -88,7 +88,7 @@ const Nav = () => {
         }`}
       >
         <div className="flex items-center gap-2">
-          <img src={dodo} alt="dodo" className="w-20" />
+          <img src={dodo} alt="dodo" className="w-32" />
           <div className="text-[#1F1E5E] tracking-wide hidden">
             <h1 className="font-bold text-xl">DodoTech</h1>
             <p className="font-medium">Official Website</p>
