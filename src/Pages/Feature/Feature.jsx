@@ -8,7 +8,7 @@ const Feature = () => {
   );
 
   return (
-    <div className="bg-[#FBF5E7]">
+    <div id="feature" className="bg-[#FBF5E7]">
       <div class="container mx-auto px-4 text-black">
         <div class="py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20">

@@ -8,8 +8,15 @@ import Templatefrom from "../Templatefrom/Templatefrom";
 
 const Templatefroms = () => {
   const [isHover, setIsHover] = useState(false);
+
+  const recipientEmail = "dev.dodotech@gmail.com";
+
+  const handleSendMail = () => {
+    const mailtoLink = `mailto:${recipientEmail}`;
+    window.location.href = mailtoLink;
+  };
   return (
-    <div className="bg-[#e4e4e4]">
+    <div id="why" className="bg-[#e4e4e4]">
       <div className="container mx-auto px-4 pt-32">
         <div className="lg:flex gap-32 mx-auto">
           <div className="w-full">
@@ -94,6 +101,7 @@ const Templatefroms = () => {
             <button
               onMouseEnter={() => setIsHover(true)}
               onMouseLeave={() => setIsHover(false)}
+              onClick={() => handleSendMail()}
               className="relative w-36 h-14"
             >
               <div className="absolute top-1 z-20">

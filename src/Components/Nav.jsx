@@ -9,6 +9,13 @@ const Nav = () => {
 
   const [nav, setNav] = useState(false);
 
+  const recipientEmail = "dev.dodotech@gmail.com";
+
+  const handleSendMail = () => {
+    const mailtoLink = `mailto:${recipientEmail}`;
+    window.location.href = mailtoLink;
+  };
+
   const changeBackground = () => {
     if (window.scrollY >= 200) {
       setNav(true);
@@ -37,17 +44,17 @@ const Nav = () => {
         <div className="lg:flex hidden items-center gap-8 tracking-wide">
           <ul className="flex gap-8 text-[#1F1E5E] font-bold">
             <li>
-              <a className="hover:text-[#702FFF]" href="#">
+              <a className="hover:text-[#702FFF]" href="#template">
                 Template
               </a>
             </li>
             <li>
-              <a className="hover:text-[#702FFF]" href="#">
+              <a className="hover:text-[#702FFF]" href="#feature">
                 Features
               </a>
             </li>
             <li>
-              <a className="hover:text-[#702FFF]" href="#">
+              <a className="hover:text-[#702FFF]" href="#why">
                 Why Us
               </a>
             </li>
@@ -55,6 +62,7 @@ const Nav = () => {
           <button
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
+            onClick={() => handleSendMail()}
             className="relative"
           >
             <div
@@ -98,17 +106,17 @@ const Nav = () => {
           <div className="lg:flex hidden items-center gap-8 tracking-wide">
             <ul className="flex gap-8 text-[#1F1E5E] font-bold">
               <li>
-                <a className="hover:text-[#702FFF]" href="#">
+                <a className="hover:text-[#702FFF]" href="#template">
                   Template
                 </a>
               </li>
               <li>
-                <a className="hover:text-[#702FFF]" href="#">
+                <a className="hover:text-[#702FFF]" href="#feature">
                   Features
                 </a>
               </li>
               <li>
-                <a className="hover:text-[#702FFF]" href="#">
+                <a className="hover:text-[#702FFF]" href="#why">
                   Why Us
                 </a>
               </li>
@@ -116,6 +124,7 @@ const Nav = () => {
             <button
               onMouseEnter={() => setIsHover(true)}
               onMouseLeave={() => setIsHover(false)}
+              onClick={() => handleSendMail()}
               className="relative"
             >
               <div
@@ -158,17 +167,17 @@ const Nav = () => {
         </div>
         <ul className="flex flex-col gap-8 text-[#1F1E5E] font-bold">
           <li>
-            <a className="hover:text-[#702FFF]" href="#">
+            <a className="hover:text-[#702FFF]" href="#template">
               Template
             </a>
           </li>
           <li>
-            <a className="hover:text-[#702FFF]" href="#">
+            <a className="hover:text-[#702FFF]" href="#feature">
               Features
             </a>
           </li>
           <li>
-            <a className="hover:text-[#702FFF]" href="#">
+            <a className="hover:text-[#702FFF]" href="#why">
               Why Us
             </a>
           </li>
@@ -176,6 +185,7 @@ const Nav = () => {
         <button
           onMouseEnter={() => setIsHover(true)}
           onMouseLeave={() => setIsHover(false)}
+          onClick={() => handleSendMail()}
           className="relative w-36"
         >
           <div

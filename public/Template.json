@@ -1,31 +1,31 @@
 [
   {
     "id": "1",
-    "name": "Digital Agency",
-    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-01.png?imwidth=1920"
+    "name": "Educational Technology",
+    "img": "https://github.com/MShafiMS/admission/blob/gh-pages/ScreenShot%20Tool%20-20230722201231.png?raw=true"
   },
 
   {
     "id": "2",
-    "name": "Creative Agency",
-    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-02.png?imwidth=1920"
+    "name": "Blog Site",
+    "img": "https://github.com/MShafiMS/admission/blob/gh-pages/ScreenShot%20Tool%20-20230722201142.png?raw=true"
   },
 
   {
     "id": "3",
-    "name": "Personal Portfolio",
-    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-03.png?imwidth=1920"
+    "name": "E-Commerce Site",
+    "img": "https://github.com/MShafiMS/admission/blob/gh-pages/ScreenShot%20Tool%20-20230722201214.png?raw=true"
   },
 
   {
     "id": "4",
-    "name": "Startup",
-    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-05.png?imwidth=1920"
+    "name": "Task Management",
+    "img": "https://github.com/MShafiMS/admission/blob/gh-pages/ScreenShot%20Tool%20-20230722201546.png?raw=true"
   },
 
   {
     "id": "5",
-    "name": "Corporate Agency",
-    "img": "https://new.axilthemes.com/demo/react/keystroke/images/preview/home-04.png?imwidth=1920"
+    "name": "Realtime Chat",
+    "img": "https://github.com/MShafiMS/admission/blob/gh-pages/ScreenShot%20Tool%20-20230722202301.png?raw=true"
   }
 ]
