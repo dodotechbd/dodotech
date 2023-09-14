@@ -1,5 +1,6 @@
 import React from "react";
 import { VscArrowDown } from "react-icons/vsc";
+import thumbnail from "../Assets/images/thumb.png";
 
 const Banner = () => {
   return (
@@ -7,8 +8,8 @@ const Banner = () => {
       <div className="container px-4 mx-auto relative">
         {/* main section  */}
         <div className="">
-          <div className="lg:max-w-2xl lg:pb-20 pb-8">
-            <h1 className="lg:text-5xl text-4xl font-semibold text-[#000248] pt-20 pb-8 lg:pt-28 lg:pb-28">
+          <div className="lg:max-w-2xl lg:pb-24 pb-8">
+            <h1 className="lg:text-5xl text-4xl font-semibold text-[#000248] pt-20 pb-8 lg:pt-28 lg:pb-14">
               Creative Agency, Corporate and Portfolio React Template
             </h1>
             <div className="flex w-fit gap-5 cursor-pointer items-center text-[#000248] hover:text-[#702FFF]">
@@ -18,7 +19,7 @@ const Banner = () => {
               <h2 className="text-[17px] font-semibold">Explore Template</h2>
             </div>
           </div>
-          <div className="lg:pt-80 pb-16 lg:flex justify-end">
+          <div className="lg:pt-48 pb-16 lg:flex justify-end">
             <div className="lg:max-w-xl lg:flex grid grid-cols-2 gap-8 lg:gap-32 whitespace-nowrap">
               <div className="w-full text-[#000248]">
                 <h4 className="opacity-80">Demo Website</h4>
@@ -38,19 +39,9 @@ const Banner = () => {
         {/* image section  */}
         <div className="lg:block hidden">
           <img
-            src="https://new.axilthemes.com/demo/react/keystroke/images/preview/small-mockup.png?imwidth=1080"
-            alt="tab"
-            className="w-[400px] absolute left-32 bottom-7"
-          />
-          <img
-            src="https://new.axilthemes.com/demo/react/keystroke/images/preview/large-mockup.png?imwidth=1920"
-            alt="laptop"
-            className="w-[550px] absolute right-48 bottom-36"
-          />
-          <img
-            src="https://new.axilthemes.com/demo/react/keystroke/images/preview/phone.png?imwidth=640"
-            alt="mobile"
-            className="w-60 absolute right-10 top-40"
+            src={thumbnail}
+            alt=""
+            className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-9/12 h-9/12"
           />
         </div>
       </div>

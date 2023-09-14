@@ -24,9 +24,13 @@ const Footer = () => {
           <button className="bg-white duration-700 text-gray-800 hover:text-white hover:bg-[#702FFF] p-3 rounded-full">
             <FaFacebookF />
           </button>
-          <button className="bg-white duration-700 text-gray-800 hover:text-white hover:bg-[#702FFF] p-3 rounded-full">
+          <a
+            href="https://www.linkedin.com/in/dodo-tech/"
+            target="blank"
+            className="bg-white duration-700 text-gray-800 hover:text-white hover:bg-[#702FFF] p-3 rounded-full"
+          >
             <FaLinkedinIn />
-          </button>
+          </a>
         </div>
       </div>
     </div>
